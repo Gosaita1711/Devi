@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deviga K | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <a href="#" class="logo">Portfolio</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+      </ul>
+      <div class="menu" onclick="shownav()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    
+    <!-- SIDE-NAV -->
+    <div class="side-nav">
+      <p onclick="closenav()">
+        <i class="fa fa-times" aria-hidden="true" id="cross"></i>
+      </p>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+      </ul>
+    </div>
+    
+    <!-- PROFILE SECTION -->
+    <div class="profile" id="home">
+      <div class="profile-container">
+        <img src="kanya (1).jpg" alt="Kanya" height="300px" width="300px" />
+        <div class="info">
+          <h3>Hi, I'm</h3>
+          <h2>Kanya</h2>
+          <span>College Student | Web Developer</span>
+          <div class="resume">
+            <a href="kanya resume.jpg">Resume</a>
+          </div>
+          <div class="social-link">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr />
+    
+    <!-- ABOUT SECTION -->
+    <div class="about">
+      <h1>About Me</h1>
+      <p>
+        Aspiring Software Engineer with a strong foundation in programming, web development, 
+        and problem-solving. Passionate about learning new technologies and building 
+        efficient software solutions.
+      </p>
+    </div>
+    
+    <hr />
+    
+    <!-- EDUCATION SECTION -->
+    <div class="education" id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Avichi College of Arts and Science - BSc Computer Science</li>
+      </ul>
+    </div>
+    
+    <hr />
+    
+    <!-- SKILLS SECTION -->
+    <div class="skill" id="skill">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Microsoft Essentials</Em></li>
+      </ul>
+    </div>
+    
+    <hr />
+    
+    <!-- PROJECTS SECTION -->
+    <div class="project" id="project">
+      <h2>Projects</h2>
+      <p><a href="https://lustrous-dasik-66e08e.netlify.app/">Online Resume</a></p>
+    </div>
+    
+    <hr />
+    
+    <!-- CERTIFICATIONS -->
+    <div class="Technical-certificates">
+      <h2>Technical Certifications</h2>
+      <ul>
+        <li>MongoDB</li>
+        <li>IBM SkillBuild TNSDC-FEWD & Cloud</li>
+        <li>HCL Generative AI</li>
+        <li>Object-Oriented Programming using Python</li>
+      </ul>
+    </div>
+    
+    <hr />
+    
+    <!-- FOOTER -->
+    <footer>
+      <h2>kanya</h2>
+      <div class="insta-github">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="resume">
+        <a href="kanya resume.jpg">Resume</a>
+      </div>
+    </footer>
+    
+    <script>
+      const nav = document.querySelector(".side-nav");
+      function shownav() {
+        nav.style.right = "0";
+      }
+      function closenav() {
+        nav.style.right = "-40%";
+      }
+    </script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="" class="js">
+  </body>
+</html>
